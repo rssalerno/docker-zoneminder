@@ -11,7 +11,7 @@
 
  DEBIAN_FRONTEND=noninteractive apt-get update
  DEBIAN_FRONTEND=noninteractive apt-get install -y -q zoneminder
- DEBIAN_FRONTEND=noninteractive apt-get install -y -q install php5-gd
+ DEBIAN_FRONTEND=noninteractive apt-get install -y -q php5-gd
 
  mysql -u root -pmysqlpsswd < /usr/share/zoneminder/db/zm_create.sql
  
